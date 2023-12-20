@@ -534,17 +534,93 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
+.inset-0 {
+  inset: 0px;
+}
+
+.z-40 {
+  z-index: 40;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-\[90\%\] {
   width: 90%;
 }
 
+.w-full {
+  width: 100%;
+}
+
+.max-w-\[200px\] {
+  max-width: 200px;
+}
+
 .max-w-screen-xl {
   max-width: 1280px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.auto-rows-max {
+  grid-auto-rows: max-content;
+}
+
+.content-center {
+  align-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-items-center {
+  justify-items: center;
 }
 
 .overflow-hidden {
@@ -555,12 +631,68 @@ video {
   scroll-behavior: smooth;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .bg-color-background {
   --tw-bg-opacity: 1;
   background-color: rgb(23 23 23 / var(--tw-bg-opacity));
 }
 
+.bg-green-color {
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 174 96 / var(--tw-bg-opacity));
+}
+
+.bg-menu-color {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 37 84 / var(--tw-bg-opacity));
+}
+
+.bg-red-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+}
+
+.bg-open-menu {
+  background-image: url('../../img/menu.svg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.px-\[5\%\] {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.clip-circle-0 {
+  -webkit-clip-path: circle(0% at top right);
+          clip-path: circle(0% at top right);
+}
+
+.peer\/menu:checked ~ .peer-checked\/menu\:bg-close-menu {
+  background-image: url('../../img/close.svg');
+}
+
+.peer\/menu:checked ~ .peer-checked\/menu\:clip-circle-full {
+  -webkit-clip-path: circle(150% at top right);
+          clip-path: circle(150% at top right);
 }
