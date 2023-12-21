@@ -17,3 +17,12 @@
 		clip-path: circle(150% at top right);
 	}
 }
+
+@layer components {
+	.icons-container {
+		@apply p-4 w-max aspect-square bg-card-color rounded-full;
+	}
+	.icons {
+		@apply fill-green-color w-10
+	}
+}
