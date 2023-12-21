@@ -20,13 +20,13 @@
 		
 		<header>
 			
-			<nav class="flex h-20 md:bg-red-800 items-center justify-between">
+			<nav class="flex h-20 md:bg-green-700 items-center justify-between">
 
 				<a href="#" class="w-1/2 max-w-[200px]">
 					<img 
 						src="img/logo.png" 
 						alt="Logo"
-						class="block w-full">
+						class="block h-10 ml-4">
 				</a>
 
 				<input type="checkbox" id="menu" class="peer/menu hidden">
