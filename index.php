@@ -278,21 +278,21 @@
 			<section class="py-16">
 				<h2 class="text-4xl mb-16 text-center md:text-5xl">Get in Touch</h2>
 
-				<form>
+				<form class="flex flex-wrap justify-between gap-8 px-1 max-w-screen-xl mx-auto">
 					<input 
-						class="border-b px-2 py-4"
+						class="border-b px-2 py-4 flex-grow focus-input"
 						type="text" placeholder="Name">
 
 					<input 
-						class="border-b px-2 py-4"
+						class="border-b px-2 py-4 flex-grow focus-input"
 						type="email" placeholder="Email">
 
 					<textarea 
-						class="border px-4 py-6 min-w-full max-w-full min-h-[240px] max-h-60"
+						class="border px-4 py-6 min-w-full max-w-full min-h-[100px] max-h-60 flex-grow focus-input"
 						placeholder="Message"></textarea>	
 
 					<input 
-						class="bg-green-color py-4 px-14 mx-auto cursor-pointer"
+						class="bg-green-color py-4 px-14 mx-auto cursor-pointer flex-grow"
 						type="submit" value="Contact me">
 				</form>
 			</section>
@@ -300,6 +300,13 @@
 
 
 		</main>
+
+
+		<footer class="py-24 text-center">
+			<p class="text-xl text-gray-color">
+				&copy; Tiago Lemes <?= date('Y') ?>
+			</p>
+		</footer>
 
 	</div>
 	
