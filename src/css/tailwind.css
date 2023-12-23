@@ -6,6 +6,10 @@
 	h1, h2, h3, h4, h5, h6 {
 		@apply font-bold
 	}
+
+	input, textarea {
+		@apply bg-color-background border-gray-color
+	}
 }
 
 @layer utilities {
@@ -23,6 +27,6 @@
 		@apply p-4 w-max aspect-square bg-card-color rounded-full;
 	}
 	.icons {
-		@apply fill-green-color w-10
+		@apply fill-green-color w-10 
 	}
 }
